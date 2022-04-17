@@ -100,6 +100,19 @@ button:hover {
     transform: translatez(10px);
 
   }
+  .container{
+   display: grid;
+   grid-template-columns: repeat(4, minmax(300px,1fr));
+   grid-gap: 50px;
+ }
+ .container2{
+   display: grid;
+   grid-template-columns: repeat(auto, minmax(500px,1fr));
+    align-items: center;
+    align-self: center;
+    margin-left: 170px;
+    margin-right: 10px;
+ }
   </style>
  </head>
  <body>
@@ -197,8 +210,9 @@ button:hover {
     </div>
     <br>
     
-      <div class="row">
-        <div class="col md-4 sm-4 xs-4" style="float: inherit;margin-left: 35px;margin-bottom: 30px;">
+      <div class="row container">
+      
+        <div class="col" style="margin-left: 30px;">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h1.jpg" alt="Card image cap">
   <div class="card-body">
@@ -210,7 +224,7 @@ button:hover {
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col" style="margin-left: 20px;">
           <div class="card hover1" style="width: 18rem; margin-bottom: 30px;">
   <img class="card-img-top" src="h2.jpg" alt="Card image cap">
   <div class="card-body">
@@ -220,7 +234,7 @@ button:hover {
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col" style="margin-left: 10px;">
           <div class="card hover1" style="width: 18rem;position: relative;top: -1px;margin-bottom: 30px;">
   <img class="card-img-top" src="h3.jpg" alt="Card image cap">
   <div class="card-body">
@@ -230,7 +244,7 @@ button:hover {
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col" style="margin-right: 20px;">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h4.jpg" alt="Card image cap">
   <div class="card-body">
@@ -242,8 +256,8 @@ Track Remotely
 </div>
         </div>
       </div>
-    <div class="row">
-        <div class="col md-4 sm-4 xs-4" style="float: inherit;margin-left: 35px;">
+    <div class="row container">
+        <div class="col" style="float: inherit;margin-left: 35px;">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h5.jpg" alt="Card image cap">
   <div class="card-body">
@@ -255,7 +269,7 @@ Track Remotely
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col" style="margin-left: 20px;">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h6.jpg" alt="Card image cap">
   <div class="card-body">
@@ -265,7 +279,7 @@ Track Remotely
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h7.jpg" alt="Card image cap">
   <div class="card-body">
@@ -275,7 +289,7 @@ Track Remotely
   </div>
 </div>
         </div>
-        <div class="col md-4 sm-4 xs-4">
+        <div class="col">
           <div class="card hover1" style="width: 18rem;">
   <img class="card-img-top" src="h8.jpg" alt="Card image cap">
   <div class="card-body">
@@ -287,7 +301,7 @@ Track Remotely
         </div>
       </div>
 
-    <div class="container-fluid px-0 py-4 mx-auto">
+    <div class="container-fluid px-0 py-4 mx-auto container2">
     <div class="row justify-content-center mx-auto">
         <div class="col-12 px-xs-0 col-md-11">
             <div class="card">
@@ -383,9 +397,7 @@ Track Remotely
         </div>
       </div>
     </div>
-    <div>
-        <img src="r1.png" width="5%">
-    </div>
+    
     
       
 
